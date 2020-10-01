@@ -18,7 +18,7 @@ public class dijiktras {
 			min=99;
 			for(j=0;j<n;j++)
 			{
-				if(d[j]<min&& visited[j]!=0)
+				if(d[j]<min&& visited[j]==0)
 				{
 					min=d[j];
 					u=j;
